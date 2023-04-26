@@ -14,7 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.4.0-20221026</app.runtime>
-		<mule.maven.plugin.version>3.8.8</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.8.0</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -78,15 +78,24 @@
 	</repositories>
 
 	<pluginRepositories>
-		<pluginRepository>
+		<pluginRepository> 
+
 			<id>mulesoft-releases</id>
-			<name>MuleSoft Releases Repository</name>
-			<layout>default</layout>
+
+			<name>mulesoft release repository</name> 
+
+			<layout>default</layout> 
+
 			<url>https://repository.mulesoft.org/releases/</url>
-			<snapshots>
+
+			<snapshots>   
+
 				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
+
+			</snapshots> 
+
+	</pluginRepository>
+
+  </pluginRepositories>
 
 </project>
