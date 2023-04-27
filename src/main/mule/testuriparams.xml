@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="testuriparamsFlow" doc:id="8a055290-d664-4c8c-89fd-642a762abc0f" >
 		<http:listener doc:name="Listener" doc:id="d152d6bb-256b-49d0-ba83-89f87ca9241f" config-ref="HTTP_Listener_config" path="/hello/{id}"/>
-		<set-payload value="Hello" doc:name="Set Payload" doc:id="7ae37671-e37e-4b96-b4bd-33f0f6546660" />
+		<set-payload value="Hello update1" doc:name="Set Payload" doc:id="7ae37671-e37e-4b96-b4bd-33f0f6546660" />
 		<logger level="INFO" doc:name="Logger" doc:id="dfc3752e-fdc6-4189-8511-346fa376a019" />
 	</flow>
 </mule>
